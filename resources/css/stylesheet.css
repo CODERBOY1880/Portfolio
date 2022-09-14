@@ -1,0 +1,167 @@
+/*fundamental stuff*/
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+body{
+    font-family: 'Poppins', sans-serif;
+
+}
+/*navigation bar settings */
+nav ul{
+    background-color: #be3144;
+    display: flex;
+   list-style: none;
+   justify-content: flex-end;
+}
+
+nav a{
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    padding: 2rem;
+    font-size: 2.2rem;
+}
+nav a:hover{
+    background-color: blue;
+}
+/*first section setting or styling*/
+#intro{
+    background-color: #000;
+    height: 90vh;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+#intro h1{
+    font-size: 6rem;
+    font-weight: 700;
+    background-image: linear-gradient(62deg, #3a3d40 0%, #181719);
+}
+#intro p{
+    color: #be3144;
+    font-weight: 200;
+    font-style: italic;
+    font-size: 3rem;
+}
+/*second section setting/styling*/
+#img{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin: 10rem;
+   
+  
+    margin-top: -1rem;
+    
+
+}
+#project h2{
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    padding-bottom: -3rem;
+    width: 500px;
+    border-bottom: 1px solid white;
+    margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+img{
+    
+    height: 200px;
+    width: 300px
+
+}
+#img p{
+    text-align: center;
+    background-color: #303841;
+    width: 300px;
+    color: white;
+    margin-top: -5px;
+    height: 1.5rem;
+    
+}
+#project{
+    background-color: #45567d;
+    height: 110vh;
+
+}  /*Sir George i tried to make the hover to display content but it is not working, what should i do pls?*/
+p:hover::before{
+    content: < ;
+    
+}
+.link{text-align: center;
+    margin-top: -130px;
+    
+   
+   
+    
+}
+
+.link a{
+    text-decoration: none;
+    background-color: #303841;
+    padding: 10px;
+    color: white;
+    
+   
+}
+.link a:hover{
+    padding: 15px;
+}
+/*last section and footer styling */
+#last{
+    background-color: #303841;
+    height: 85vh;
+}
+footer{
+    background-color: #303841;
+    border-top: 5px solid #be3144;
+    height: 15vh;
+    display: flex;
+}
+footer p{
+    margin:0, 40px;
+    color: white;
+    display: flex;
+}
+#last h2{
+    padding-top: 150px;
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+    font-weight: 700;
+}
+#last p{
+    font-style: italic;
+    text-align: center;
+    color: white;
+    
+}
+#last ul{
+    display: flex;
+    text-align: center;
+    list-style: none;
+    justify-content: center;
+    margin-top: 40px;
+}
+#last a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    transition: ease-in-out;
+    font-size: 2rem;
+   
+}
+/* i couldn't make the contact to move down, what should i do?*/
+#last a:hover{
+    padding-top: 20px;
+}
+.space{
+    
+    margin-left: 30rem;
+}
